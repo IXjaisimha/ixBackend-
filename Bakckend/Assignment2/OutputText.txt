@@ -1,0 +1,106 @@
+Reading the SampleText.txt file using IO:
+Java I O               streams provide a way to read and write data.
+Buffered streams improve performance by reducing disk access.
+Exception handling is             mandatory for checked IO exceptions.
+======================================================================
+
+Complete File Content:
+Java I O               streams provide a way to read and write data.
+Buffered streams improve performance by reducing disk access.
+Exception handling is             mandatory for checked IO exceptions.
+
+======================================================================
+
+Content after removing multiple spaces:
+Java I O streams provide a way to read and write data. Buffered streams improve performance by reducing disk access. Exception handling is mandatory for checked IO exceptions. 
+======================================================================
+
+Displaying counts: Like Word count, Sentence count, Character count
+Word count: 27
+Sentence count: 3
+Character count: 145
+======================================================================
+
+ Find most frequently occurring word in the file:
+Top 5 most frequent words are:
+streams: 2
+exception: 1
+access.: 1
+for: 1
+mandatory: 1
+======================================================================
+Reverse the sentences of the file without the word order:
+Reversed Sentences Paragraph:
+avaJ I O smaerts edivorp a yaw ot daer dna etirw .atad dereffuB smaerts evorpmi ecnamrofrep yb gnicuder ksid .ssecca noitpecxE gnildnah si yrotadnam rof dekcehc OI .snoitpecxe 
+======================================================================
+Demostarting the differnece between the equals and == operator:
+Using == operator: false
+Using equals() method: true
+Using == operator for str1 and str3: false
+Using == operator for str3 and str4: true
+Explanation:
+The '==' operator checks for reference equality, meaning it checks whether both references point to the same object in memory.
+The 'equals()' method checks for value equality, meaning it checks whether the values of the objects are the same.
+
+
+
+
+
+
+
+
+
+
+======================================================================
+
+
+Reading the SampleText.txt file using IO:
+    Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor.
+    Eagerly I wished the morrow;?vainly I had sought to borrow
+    From my books surcease of sorrow?sorrow for the lost Lenore?
+For the rare and radiant maiden whom the angels name Lenore?
+            Nameless here for evermore.
+======================================================================
+
+Complete File Content:
+    Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor.
+    Eagerly I wished the morrow;?vainly I had sought to borrow
+    From my books surcease of sorrow?sorrow for the lost Lenore?
+For the rare and radiant maiden whom the angels name Lenore?
+            Nameless here for evermore.
+
+======================================================================
+
+Content after removing multiple spaces:
+Ah, distinctly I remember it was in the bleak December; And each separate dying ember wrought its ghost upon the floor. Eagerly I wished the morrow;?vainly I had sought to borrow From my books surcease of sorrow?sorrow for the lost Lenore? For the rare and radiant maiden whom the angels name Lenore? Nameless here for evermore.
+======================================================================
+
+Displaying counts: Like Word count, Sentence count, Character count
+Word count: 55
+Sentence count: 2
+Character count: 264
+======================================================================
+
+ Find most frequently occurring word in the file:
+Top 5 most frequent words are:
+the: 6
+for: 3
+i: 3
+and: 2
+lenore?: 2
+======================================================================
+Reverse the sentences of the file without the word order:
+Reversed Sentences Paragraph:
+,hA yltcnitsid I rebmemer ti saw ni eht kaelb ;rebmeceD dnA hcae etarapes gniyd rebme thguorw sti tsohg nopu eht .roolf ylregaE I dehsiw eht ylniav?;worrom I dah thguos ot worrob morF ym skoob esaecrus fo worros?worros rof eht tsol ?eroneL roF eht erar dna tnaidar nediam mohw eht slegna eman ?eroneL sselemaN ereh rof .eromreve
+======================================================================
+Demostarting the differnece between the equals and == operator:
+Using == operator: false
+Using equals() method: true
+Using == operator for str1 and str3: false
+Using == operator for str3 and str4: true
+Explanation:
+The '==' operator checks for reference equality, meaning it checks whether both references point to the same object in memory.
+The 'equals()' method checks for value equality, meaning it checks whether the values of the objects are the same.
+

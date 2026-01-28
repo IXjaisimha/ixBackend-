@@ -1,0 +1,13 @@
+1, Ram, 22
+2, Ravi, 17
+3, Raju, 22
+4, John, 25
+5, Neha, 20
+6, Priya, 21
+2, Ravi, 17
+6, Raju, 22
+x, K   aran  , 19
+8, Sneha, 22 ,342
+4, John, 25
+5, Neha, 20
+6, Priya, 21

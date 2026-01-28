@@ -1,0 +1,40 @@
+# ===============================
+# Java IO Practice Test File
+# ===============================
+
+Student Records:
+----------------
+ID,Name,Department,Year,CGPA
+101,Aarav,CSE,3,8.42
+102,Diya,IT,2,7.89
+103,Rohan,ECE,4,8.15
+104,Meera,CSE,1,9.01
+105,Aditya,ME,3,7.55
+
+Attendance Log:
+---------------
+2024-08-01,101,PRESENT
+2024-08-01,102,ABSENT
+2024-08-01,103,PRESENT
+2024-08-01,104,PRESENT
+2024-08-01,105,ABSENT
+
+System Logs:
+------------
+INFO  - Application started
+DEBUG - Loading configuration
+WARN  - Low memory detected
+ERROR - Database connection failed
+INFO  - Application terminated
+
+Random Numbers:
+---------------
+12 45 78 23 90 34 56 11 67 89
+
+Paragraph Text:
+---------------
+Java I O               streams provide a way to read and write data.
+Buffered streams improve performance by reducing disk access.
+Exception handling is             mandatory for checked IO exceptions.
+
+End Of File.
