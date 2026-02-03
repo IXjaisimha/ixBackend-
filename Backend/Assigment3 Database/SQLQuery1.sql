@@ -185,11 +185,15 @@ select course_id,count(course_id) as no_of_enrollments from enrollments group by
 
 select * from students where age>20  order by age desc;
 
-select * from students where name like '%a%';
+select count(*) from (select * from students where name like '%a%') as new_table;
 
-select * from courses where fee between 50000 and 100000 order by fee;
+(select * from courses where fee>50000) 
+intersect 
+(select * from courses where fee<100000) 
+order by fee;
 
-select * from students where age is not null and active_flag = 0;
+select * from students where age is not null and 
+student_id in (select student_id from students where active_flag = 1);
 
 select course_id ,count(course_id) from enrollments group by course_id having count(course_id) > 1;
 
