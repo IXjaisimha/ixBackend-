@@ -16,7 +16,7 @@ public class program5 {
     }
 
     public String RemoveMultipleSpaces(String str) {
-        return str.replaceAll(" +", "");
+        return str.replaceAll(" +", "").trim();
     }
     public static void main(String args[]){
         String filepath = "D:\\CoDinG\\Innovatechs\\Bakckend\\Assignment2\\Program5input.txt";
@@ -48,15 +48,6 @@ public class program5 {
         List<String> ValidRecords = new ArrayList<>();
         List<String> InvalidRecords = new ArrayList<>();
 
-        //Removing dulicate records
-        /**
-         * Creates a new HashSet containing all elements from the given array of records.
-         * This ensures that the resulting set contains only unique record strings,
-         * eliminating any duplicates present in the original array.
-         *
-         * @param records an array of record strings to be added to the set
-         * @return a Set containing the unique elements from the records array
-         */
         Set<String> recordSet = new HashSet<>(Arrays.asList(records));
         records = recordSet.toArray(new String[0]);
 

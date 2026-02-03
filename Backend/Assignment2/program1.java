@@ -6,13 +6,13 @@ class program1 {
     }
 
     public void display(String paragraph){
-        int wordcount = 0;
+        int wordcount = 1;
         int sentencecount = 0;
         int charactercount = 0;
 
         for(int i=0; i<paragraph.length(); i++){
             char ch = paragraph.charAt(i);
-            if(Character.isLetterOrDigit(ch)){
+            if(!Character.isWhitespace(ch)){
                 charactercount++;
             }
             if(ch == ' '){
@@ -102,7 +102,7 @@ class program1 {
         System.out.println(result);
         
         System.out.println("======================================================================");
-        System.out.println("\nDisplaying counts: Like Word count, Sentence count, Character count");
+        System.out.println("\nDisplaying counts: Word count, Sentence count, Character count");
         obj.display(result);
         System.out.println("======================================================================");
         System.out.println("\n Find most frequently occurring word in the file:");
